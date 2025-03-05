@@ -1,6 +1,6 @@
-const phrase = "30 Days Of JavaScript";
-        console.log("===================JavaScript Assignment===================");
 
+        console.log("===================JavaScript Assignment===================");
+const phrase = "30 Days Of JavaScript";
 console.log("===========Question number 1===========")
         // 1.Declare firstName, lastName, country, city, age, isMarried, year variable and assign value to it and use the typeof operator to check different data types.
 
@@ -38,7 +38,7 @@ else{
 
 console.log("===========Question number 3===========")
 
-// 3.  console.log(typeof('10'))
+// Check if parseInt('9.8') is equal to 10
 
 if(parseInt('9.8') == 10){
     console.log(true);
@@ -199,8 +199,8 @@ console.log("===========Question number 11===========");
 
 // Cut (slice) out the first word of the string using slice()
 
-let tranckName = "Frontend Development";
-console.log(tranckName.slice(0,8));
+let trackName = "Frontend Development";
+console.log(trackName.slice(0,8));
 
 
 
@@ -219,7 +219,7 @@ console.log("===========Question number 13===========");
 
 // Check if the string contains a word Script using includes() method
 
-let strings = "hello";
+let strings = "JavaScript";
 if(strings.toLowerCase().includes("script")){
     console.log("The string contains a word Script.")
 }
@@ -274,6 +274,7 @@ console.log(phrase.endsWith("JavaScript"))
 
 
 console.log("===========Question number 19===========");
+// Generate a random number between 0 and 100 inclusively.
 
 console.log(Math.floor(Math.random()*101))
 
